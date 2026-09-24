@@ -2211,6 +2211,7 @@ dependencies = [
     { name = "langchain-ollama" },
     { name = "notebook" },
     { name = "python-dotenv" },
+    { name = "requests" },
 ]
 
 [package.metadata]
@@ -2222,6 +2223,7 @@ requires-dist = [
     { name = "langchain-ollama", specifier = ">=1.1.0" },
     { name = "notebook", specifier = ">=7.6.3" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
+    { name = "requests", specifier = ">=2.34.2" },
 ]
 
 [[package]]
